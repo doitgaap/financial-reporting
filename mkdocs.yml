@@ -1,0 +1,9 @@
+site_name: GAAP Compliance & Valuation Logic
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
