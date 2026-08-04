@@ -1,312 +1,483 @@
 F1 M1: System Logic & Reporting Architecture (Balance Sheet, Income Statement, & Comprehensive Income)
 
-1. Executive Summary & Core Framework
-
-The foundation of U.S. GAAP general-purpose financial reporting is to provide stakeholders—investors, creditors, and lenders—with a comprehensive view of an entity's financial health, performance, and cash flows. The primary objective is to assist external providers of capital in making decisions about providing resources to the entity.
-
-To achieve this, GAAP requires a complete set of financial statements that deconstructs the entity's economic engine into two fundamental categories of accounts:
-
-Permanent (Real) Accounts: These accounts track the cumulative, historical economic resources and claims against those resources from the inception of the company to the present date. They are never closed out at year-end. They live on the Balance Sheet.
-
-Temporary (Nominal) Accounts: These accounts measure the economic performance (activity) of the entity over a discrete, specified period of time (e.g., one year or one quarter). At the end of the reporting period, these accounts are closed out to zero, and their net result is transferred into permanent equity (Retained Earnings or Accumulated Other Comprehensive Income). They live on the Income Statement and the Statement of Comprehensive Income.
-
-Notes to the financial statements are an integral part of this reporting, supplementing the face of the statements with descriptions of accounting policies, unrecognized past events, and required GAAP disclosures. Notes may not be used to correct an improper presentation or as a substitute for recognition in the statements.
-
-2. Integrated System Architecture: The Balance Sheet (Statement of Financial Position)
-
-The Balance Sheet presents the financial position of an entity at a single moment in time (a snapshot). It helps users assess liquidity, financial flexibility, and risk. It is governed by the basic accounting equation:
-
-
-$$\text{Assets} = \text{Liabilities} + \text{Equity}$$
-
-🎯 Exam Application & Rationale (MCQ Insight - The Accounting Equation): Test-makers will often test the foundational balance sheet equation by giving you changes in various accounts and asking for the net impact. For example, if cash increases by $40,000, other assets decrease by $65,000, and liabilities increase by $32,000, you must set up the formula algebraically based on the changes: Net Change in Assets (-$25,000) = Change in Liabilities ($32,000) + Change in Equity (X). Solving for X shows that Stockholders' Equity must decrease by $57,000.
-
-A. Asset Classification & Valuation Mechanics
-
-Assets are generally reported in order of liquidity (how quickly they can be converted into cash).
-
-Current Assets: Resources commonly identified as reasonably expected to be realized in cash, sold, or consumed during the normal operating cycle of the business or one year, whichever is longer.
-
-The Operating Cycle Rule: An operating cycle is the average time between the acquisition of resources and the final receipt of cash from their sale. If the cycle is less than a year, 1 year is the period used. If the cycle is longer than a year, the longer cycle is used.
-
-Included Items: Cash and cash equivalents; certain individual investments in trading, available-for-sale (AFS), and held-to-maturity (HTM) debt securities; receivables; inventories; prepaid expenses; and certain individual investments in equity securities.
-
-Noncurrent Assets: Assets not qualifying as current.
-
-Investments and Funds: Nonoperating items intended to be held beyond the longer of 1 year or the operating cycle. Includes equity investments made for control/influence, certain AFS and HTM debt securities, and funds restricted as to withdrawal or use for other than current operations (e.g., to retire long-term debt, satisfy pension obligations, or pay for the acquisition/construction of noncurrent assets). Also includes capital assets not used in current operations, such as idle facilities or land held for a future plant site.
-
-Property, Plant, and Equipment (PP&E): Tangible operating items recorded at cost and reported net of accumulated depreciation. Includes land, natural resources (subject to depletion), buildings, equipment, furniture, fixtures, leasehold improvements, and noncurrent assets under construction.
-
-Intangible Assets: Nonfinancial assets without physical substance, such as patents and goodwill.
-
-Other Noncurrent Assets: Items not readily classifiable elsewhere, such as deferred tax assets and long-term receivables.
-
-B. Liability Classification & The Debt Refinancing Rules
-
-Current Liabilities: Obligations whose liquidation is reasonably expected to require the use of existing resources properly classifiable as current assets, or the creation of other current liabilities. They are generally expected to be settled during the longer of 1 year or the operating cycle.
-
-Included Items: Trade payables for items entering the operating cycle; other payables arising from operations (accrued wages, taxes, rentals); unearned revenues (contract liabilities) arising from collections in advance of delivering goods/services; short-term notes given to acquire capital assets; payments on the current portion of noncurrent debt; and noncurrent obligations callable by the creditor because of a covenant violation at the balance sheet date.
-
-The Refinancing Exception (CRITICAL): Current obligations are excluded from current liabilities (and classified as noncurrent) ONLY IF the entity (1) intends to refinance them on a noncurrent basis and (2) demonstrates an ability to do so. Ability is demonstrated by entering into a financing agreement meeting all conditions before the balance sheet is issued, or by issuing a noncurrent obligation/equity securities after the end of the reporting period but before issuance of the balance sheet.
-
-Noncurrent Liabilities: Obligations not qualifying as current. Includes noncurrent notes/bonds, lease liabilities, most postretirement benefit obligations, obligations under warranty agreements, advances for noncurrent commitments, deferred revenue, and deferred tax liabilities arising from interperiod tax allocation.
-
-🎯 Exam Application & Rationale (MCQ Insight - Current Asset Classification): A deposit received from a customer is a liability, not an asset. When calculating total current assets, ensure you correctly offset gross accounts receivable with the allowance for doubtful accounts to present the net accounts receivable figure. Furthermore, cash that is specifically segregated into a bond sinking fund to pay off long-term debt cannot be classified as a current asset; it must be classified as a noncurrent asset.
-
-🎯 Exam Application & Rationale (MCQ Insight - Current Liability Classification): When calculating total current liabilities from a trial balance, you must include trade accounts payable, dividends payable, income tax payable, and the current portion of long-term debt (e.g., bonds maturing within the next year), but you must also remember to subtract any discount on those current bonds payable to present them at their carrying amount. Notes payable due after one year and deferred income tax payable based on temporary differences reversing in future years are explicitly noncurrent.
-
-C. Equity
-
-Equity is the residual after total liabilities are subtracted from total assets. It consists of:
-
-Capital contributed by owners: Par value of common and preferred stock issued, plus additional paid-in capital.
-
-Retained earnings: Income reinvested in the business.
-
-Accumulated other comprehensive income (AOCI): All comprehensive income items not included in net income.
-
-Noncontrolling interest: In a consolidated entity.
-Note: Treasury stock is presented as a reduction of total equity.
-
-D. Limitations of the Balance Sheet
-
-Book value ≠ market value: Amounts do not represent the market value of the entity; many assets are measured at historical cost.
-
-Subjectivity: Valuation methods (LIFO vs. FIFO, straight-line vs. accelerated depreciation) make comparison difficult.
-
-Estimates: Heavy reliance on management estimates (e.g., estimated useful lives).
-
-3. Integrated System Architecture: The Income Statement (Statement of Earnings)
-
-The Income Statement reports the results of operations on the accrual basis using an approach oriented to historical transactions. It helps users determine operating risk, assess the volatility of sales and operating income, and evaluate creditworthiness and profitability.
-
-The REGL Framework:
-
-Revenues: Inflows or enhancements of assets (or settlements of liabilities) from delivering goods or rendering services that constitute the entity's ongoing major or central operations. Reported at Gross.
-
-Expenses: Outflows or using up of assets from delivering goods or rendering services that constitute ongoing major or central operations. Reported at Gross. (Cost of Goods Sold = Beginning Inventory + Purchases - Ending Inventory).
-
-Gains: Increases in equity from peripheral or incidental transactions. Reported at Net (Selling Price - Net Book Value).
-
-Losses: Decreases in equity from peripheral or incidental transactions. Reported at Net.
-
-A. Cost vs. Unexpired Cost
-
-Cost: The amount actually paid (expended) for items.
-
-Unexpired Cost: Costs that will expire in future periods and be matched against future revenues. These are capitalized as assets on the balance sheet (e.g., Inventory, Prepaid Insurance, Net Book Value of Fixed Assets). When they expire, they become expenses on the income statement (e.g., Cost of Goods Sold, Insurance Expense, Depreciation Expense).
-
-B. Single-Step vs. Multiple-Step Income Statement Formats
-
-GAAP allows for two primary presentation formats:
-
-Single-Step Income Statement: Provides one grouping for all revenues and gains, and one grouping for all expenses and losses. The single step is the one subtraction necessary to arrive at net income.
-
-Benefit: Simple design; does not make one item appear more important than another.
-
-Drawback: Does not distinguish between core operating business and incidental nonoperating business.
-
-Key Rule: In a single-step format, "Total Revenues" includes Net Sales, Interest Revenue, Dividend Revenue, and Gains. It does not include purchase discounts (which reduce COGS) or recovery of accounts written off.
-
-Multiple-Step Income Statement: Enhances disclosure by separating operating revenues and expenses from nonoperating items, providing readily available subtotals like Gross Profit and Income from Operations.
-
-Selling Expenses: Incurred in selling or marketing. Includes sales reps' salaries, commissions, traveling expenses, advertising, and freight-out (shipping to customers).
-
-General and Administrative (G&A) Expenses: Incurred for the direction of the entity as a whole. Includes accounting/legal fees, officers' salaries, office insurance, wages of office staff, and office occupancy costs.
-
-Nonoperating Items: Interest expense, interest revenue, dividend revenue, gains/losses on sale of fixed assets, and unusual/infrequent items.
-
-🎯 Exam Application & Rationale (MCQ Insight - Expense Allocation): The exam frequently tests the proper classification of expenses in a multiple-step statement. Freight-in is a product cost included in Cost of Goods Sold, whereas freight-out is a Selling Expense. If an expense serves a dual purpose, such as rent for an office space used equally by the sales department and accounting department, you must allocate exactly 50% to Selling Expenses and 50% to G&A. Similarly, the loss on abandoned equipment used in operations is an operating expense, but interest expense is firmly nonoperating.
-
-C. Unusual and Infrequent Items
-
-Material items that are unusual in nature, infrequent in occurrence, or both are reported as a separate component of Income from Continuing Operations.
-
-These items must NOT be reported net of taxes; they are reported gross.
-
-Gains or losses of a similar nature that are not individually material must be aggregated.
-
-🎯 Exam Application & Rationale (MCQ Insight - Unusual/Infrequent Reporting): Under current U.S. GAAP, the concept of "Extraordinary Items" has been completely eliminated. If an event is both unusual in nature AND infrequent in occurrence (e.g., a massive loss from a casualty or an unexpected gain from debt extinguishment), it is reported as a separate line item within Income from Continuing Operations, on a PRE-TAX basis. It is never reported net of tax, and never buried in discontinued operations. Furthermore, actual losses from frequent occurrences (like common hailstorms) are simply reported in continuing operations with no separate disclosure required.
-
-D. Limitations of the Income Statement
-
-Subjectivity: It is based on accounting methods which include estimates.
-
-Management Bias: Managers can manipulate earnings through assumptions and choice of accounting methods (e.g., LIFO vs. FIFO, estimating high vs. low warranty expenses).
-
-Classification Shifting: Managers may attempt to shift normal operating expenses down into the nonoperating section to artificially inflate core operating income, or shift nonoperating gains up into operating income to appear more profitable.
-
-4. Discontinued Operations
-
-When a company decides to dispose of a component or a group of components, the operating results of that discontinued operation are reported separately, net of tax, in the income statement. This section is presented immediately after the results of continuing operations.
-
-A. Qualifications for Discontinued Operations Treatment
-
-A disposal of a component is reported in discontinued operations only if the disposal represents a strategic shift that has or will have a major effect on an entity's operations and financial results. Examples include:
-
-Disposal of a major geographical area.
-
-Disposal of a major line of business.
-
-Disposal of a major equity method investment.
-
-B. Held for Sale Criteria
-
-The earliest period a component can be reported in discontinued operations is when it meets all six "held for sale" criteria:
-
-Management commits to a plan to sell.
-
+Chapter 1: Financial Statements – System Logic & Reporting Architecture
+Index Page & Table of Contents
+Chapter Overview
+1. The Balance Sheet (Statement of Financial Position)
+1.1 General Purpose Financial Reporting Framework
+1.2 The Basic Accounting Equation
+1.3 Classified Balance Sheets & Asset/Liability Categories
+1.4 Illustrative Comparative Statement of Financial Position
+1.5 Working Capital & Liquidity Analysis
+1.6 Limitations of the Balance Sheet
+2. The Income Statement (Statement of Earnings)
+2.1 Nature & Accrual-Basis Foundations
+2.2 Key Terminology & The REGL Framework
+2.3 Income Statement Presentation Formats
+2.4 Illustrative Multiple-Step & Single-Step Income Statements
+2.5 Earnings Management, Subjectivity, & Classification Shifting
+3. Discontinued Operations
+3.1 Strategic Shift & Reporting Thresholds
+3.2 Held-for-Sale Criteria (The Six Rules)
+3.3 Measurement, Impairment, & Non-Depreciation Rules
+3.4 Discontinued Operations Calculations
+3.5 Comprehensive Example 1: Emkay Co. Segment Disposal
+3.6 Comprehensive Example 2: All Sports Company (Golf Division)
+4. Comprehensive Income & Other Comprehensive Income (OCI)
+4.1 Defining Comprehensive Income
+4.2 Other Comprehensive Income (OCI) & The PUFI Mnemonic
+4.3 Accumulated Other Comprehensive Income (AOCI) vs. Retained Earnings
+4.4 Financial Statement Presentation Formats
+4.5 Illustrative Comprehensive Income Statements (Sydney Technologies)
+4.6 Reclassification Adjustments & Required Disclosures
+5. Statement of Changes in Equity
+6. Cash vs. Accrual Basis Conversions
+7. Knowledge Check: Becker Multiple-Choice Questions
+8. Answer Key & Detailed Explanations
+Chapter Overview
+This chapter explores the conceptual foundations and reporting rules governing the Balance Sheet (Statement of Financial Position), the Income Statement (Statement of Earnings), and the Statement of Comprehensive Income under U.S. GAAP. You will learn how transactions flow from nominal, temporary accounts into permanent equity sections, how to identify and measure discontinued operations, and how to apply the PUFI mnemonic for items bypassing net income. Through step-by-step mathematical conversions, real-world examples, and rigorous multiple-choice questions, this module equips you with the technical architecture required to excel on the CPA FAR exam.
+
+1. The Balance Sheet (Statement of Financial Position)
+1.1 General Purpose Financial Reporting Framework
+General purpose financial reporting is defined as a full set of financial statements and the accompanying notes. Under U.S. GAAP, a full set of financial statements is designed to report the recognition, measurement, and flow of an entity's economic resources.
+
+FAR Rule: Full Set of Financial Statements A complete set of general purpose financial statements must report:
+
+Financial position at the end of the period (Balance Sheet)
+Earnings for the period (Income Statement)
+Comprehensive income for the period (Statement of Comprehensive Income)
+Cash flows during the period (Statement of Cash Flows)
+Investments by and distributions to owners (Statement of Changes in Owners' Equity)
+Supplemental information, such as Management’s Discussion and Analysis (MD&A), provides contextual background regarding the reporting entity's unrecognized past events and current circumstances that can affect future cash flows.
+
+1.2 The Basic Accounting Equation
+The Balance Sheet presents a detailed summary of the entity’s resources and obligations at a moment in time (represented as "as of" a particular date). It serves as a tool for users to evaluate short-term liquidity, long-term solvency, and financial flexibility.
+
+The Basic Accounting Equation $$\text{Assets} = \text{Liabilities} + \text{Stockholders' Equity}$$
+
+Left Side (Assets): Depicts the entity's resource structure (its capacity to produce).
+Right Side (Liabilities + Equity): Depicts the entity's financing structure. Liabilities represent the first claim on assets, while equity represents the residual interest.
+1.3 Classified Balance Sheets & Asset/Liability Categories
+Entities typically present a classified Balance Sheet which segregates assets and liabilities into current and non-current categories based on liquidity.
+
+Current Assets: Consist of cash and other resources commonly identified as reasonably expected to be realized in cash, sold, or consumed during the normal operating cycle of the business or one year, whichever is longer.
+Operating Cycle: The average time between the acquisition of resources and the final receipt of cash from their sale. If the operating cycle is less than one year, one year is the default period used.
+Inclusions: Cash and cash equivalents, short-term investments (trading, available-for-sale, or held-to-maturity debt securities), accounts and notes receivable, inventories, and prepaid expenses.
+Noncurrent Assets: Resources that do not qualify as current.
+Investments and Funds: Nonoperating assets intended to be held beyond the longer of one year or the operating cycle (e.g., equity-method investments, available-for-sale securities at fair value, and investments in affiliates).
+Property, Plant, and Equipment (PP&E): Tangible, long-lived assets used in active operations (e.g., land, building, machinery, minus accumulated depreciation).
+Intangible Assets: Long-lived legal rights and competitive advantages with no physical substance (e.g., goodwill, patents net of amortization).
+Other Assets: Deferred income tax assets, pension and other postretirement benefit assets.
+Current Liabilities: Obligations whose liquidation is reasonably expected to require the use of existing current assets, the creation of other current liabilities, or the provision of services within one year or the operating cycle, whichever is longer.
+Inclusions: Current portion of long-term debt, accounts payable, short-term notes payable, interest payable, salaries/wages payable, income taxes payable, and unearned (deferred) revenue.
+Noncurrent Liabilities: Obligations not qualifying as current (e.g., long-term bonds and notes payable, lease liabilities, postretirement benefit obligations, and deferred tax liabilities arising from interperiod tax allocation).
+1.4 Illustrative Comparative Statement of Financial Position
+The following table presents a comparative Statement of Financial Position highlighting the classifications discussed above:
+
+Assets	Current Year End	Prior Year End	Liabilities and Stockholders' Equity	Current Year End	Prior Year End
+Current Assets:			Current Liabilities:		
+Cash and cash equivalents	$325,000	$275,000	Current maturities of L.T. debt	$100,000	$100,000
+Available-for-sale debt securities	165,000	145,000	Accounts payable	200,000	125,000
+Accounts receivable, net	120,000	115,000	Notes payable	55,000	40,000
+Accrued interest on note	5,000	5,000	Salaries and wages payable	15,000	10,000
+Inventories	85,000	55,000	Income taxes payable	70,000	35,000
+Prepaid expenses	10,000	5,000	Unearned revenue	10,000	5,000
+Total current assets	$710,000	$600,000	Total current liabilities	$450,000	$315,000
+Noncurrent Assets:			Noncurrent Liabilities:		
+Equity-method investments	120,000	115,000	Bonds payable	500,000	600,000
+Property, plant, and equipment	1,000,000	900,000	Long-term notes payable	90,000	60,000
+Minus: Accum. depreciation	(85,000)	(55,000)	Employee-related obligations	15,000	10,000
+Goodwill	5,000	5,000	Deferred income tax liability	5,000	5,000
+Total noncurrent assets	$1,040,000	$965,000	Total noncurrent liabilities	$610,000	$675,000
+Total liabilities	$1,060,000	$990,000
+Stockholders' Equity:		
+Common stock, $1 par	500,000	500,000
+Additional paid-in capital	200,000	80,000
+Accumulated OCI	30,000	20,000
+Retained earnings	70,000	50,000
+Minus: Treasury stock (at cost)	(110,000)	(40,000)
+Total stockholders' equity	$690,000	$575,000
+Total assets	$1,750,000	$1,565,000	Total liabilities and equity	$1,750,000	$1,565,000
+1.5 Working Capital & Liquidity Analysis
+Working capital measures an entity's short-term operating liquidity and ability to meet obligations as they fall due.
+
+Working Capital Formula $$\text{Working Capital} = \text{Current Assets} - \text{Current Liabilities}$$
+
+1.6 Limitations of the Balance Sheet
+Historical Cost Valuation: Many significant assets (such as PP&E and intangible assets) are reported at historical cost rather than fair market value, meaning the Balance Sheet does not represent the true market value of the reporting entity.
+Subjectivity: The measurement of many items relies heavily on management estimates and accounting policies (e.g., estimating allowances for doubtful accounts, useful lives, salvage values, and choosing depreciation or inventory methods).
+Omission of Off-Balance Sheet Items: Important intangible factors (e.g., human capital, brand reputation, proprietary knowledge) are omitted from the asset section if they are internally generated.
+2. The Income Statement (Statement of Earnings)
+2.1 Nature & Accrual-Basis Foundations
+The Income Statement reports the financial performance of an entity over a period of time (represented as "for the year/period ended"). It measures profitability, investment value, creditworthiness, and future cash flows using accrual-basis accounting oriented around historical transactions.
+
+Accounting Rule: Accrual vs. Permanent Accounts
+
+Temporary (Nominal) Accounts: All income statement elements (revenues, expenses, gains, and losses) are temporary accounts used to accumulate results for a single period.
+Closing Process: At the end of each reporting period, temporary accounts are closed, and the net result (Net Income or Loss) is transferred to Retained Earnings (a permanent equity account on the Balance Sheet).
+2.2 Key Terminology & The REGL Framework
+Under GAAP, performance is calculated through four core elements, summarized by the mnemonic REGL:
+
+Net Income Equation $$\text{Net Income} = \text{Revenues} - \text{Expenses} + \text{Gains} - \text{Losses}$$
+
+Revenues: Inflows or other enhancements of assets or settlements of liabilities from delivering or producing goods, rendering services, or carrying out other activities that constitute the entity's ongoing major or central operations. Revenues are reported at gross amounts of consideration expected.
+Expenses: Outflows, consumption of assets, or incurrences of liabilities from ongoing major or central operations. Expenses are reported at gross amounts.
+Gains: Increases in equity (net assets) from peripheral or incidental transactions of an entity, except those that result from revenues or investments by owners. Gains are reported net (e.g., proceeds minus net book value).
+Losses: Decreases in equity from peripheral or incidental transactions, except those that result from expenses or distributions to owners. Losses are reported net.
+FAR Rule: Unusual or Infrequent Items Items of income or loss that are unusual and/or infrequent (e.g., restructuring charges, write-downs, or gains/losses from fixed asset sales) must be reported separately as a component of Income from Continuing Operations (pre-tax). They are not permitted to be shown net of tax.
+
+2.3 Income Statement Presentation Formats
+GAAP permits three main presentation formats for reporting recurring items:
+
+Single-Step Income Statement: Groups all revenues and gains together, and all expenses and losses together. The subtraction of total expenses and losses from total revenues and gains represents the "single step" required to find Net Income.
+Benefits: Simple design; does not make one item appear more important than another.
+Drawbacks: Does not distinguish between core operating operations and auxiliary/incidental business.
+Multiple-Step Income Statement: Segregates operating activities from nonoperating activities. This format provides enhanced user disclosure and analytical usefulness by presenting key subtotals: Gross Margin, Operating Income, and Pre-tax Income.
+Benefits: Clearly isolates core operating business from nonoperating items (such as interest and realized gains/losses); facilitates ratio analysis.
+Condensed Income Statement: Reports only the section totals of the multiple-step format. The detailed line-by-line breakdowns of expenses are disclosed in the footnotes.
+2.4 Illustrative Multiple-Step & Single-Step Income Statements
+The following comprehensive examples illustrate how a trial balance is converted into both Multiple-Step and Single-Step formats using the data from Radon Industries Inc.
+
+Trial Balance Data:
+
+Sales Revenue: $380,000 (Gross) | Sales Returns: $25,000 | Sales Discounts: $5,000
+Service Revenue: $200,000 | Rental Revenue: $100,000
+Cost of Goods Sold (COGS): $200,000 | Cost of Services Sold: $150,000 | Cost of Rental Income: $60,000
+Salaries Expense: $70,000 ($20,000 for salespeople; $50,000 for corporate officers)
+Freight-Out: $25,000 | Commissions: $40,000 | Advertising: $15,000
+Insurance Expense: $20,000 | Depreciation Expense: $80,000 | Income Tax Expense: $100,000
+Interest Revenue: $170,000 | Other Revenue: $130,000
+Interest Expense: $50,000 | Loss on Sale of Fixed Assets: $40,000
+Gain on Sale of Available-for-Sale Securities: $50,000
+Restructuring Expense (infrequent service division restructuring): $100,000
+Loss on Discontinued Operations (net of tax): $25,000
+Multiple-Step Format:
+$$\text{Net Sales} = \text{Gross Sales } ($380) - \text{Returns } ($25) - \text{Discounts } ($5) + \text{Service Rev } ($200) + \text{Rental Rev } ($100) = $650$$ $$\text{Cost of Sales} = \text{COGS } ($200) + \text{Cost of Services } ($150) + \text{Cost of Rental } ($60) = $410$$ $$\text{Selling Expenses} = \text{Freight-Out } ($25) + \text{Commissions } ($40) + \text{Advertising } ($15) + \text{Sales Salaries } ($20) = $100$$ $$\text{General & Administrative Expenses} = \text{Officers' Salaries } ($50) + \text{Insurance } ($20) = $70$$
+
+Radon Industries Inc.
+Income Statement
+For the Year Ended December 31, Year 1 (in thousands)
+
+Net sales (including goods, services, and rentals)           $650
+Cost of sales                                                 (410)
+Gross margin                                                  $240
+Operating expenses:
+   Selling expenses                                  $100
+   General and administrative expenses                 70
+   Depreciation expense                                80     (250)
+Income (loss) from operations                                 $ (10)
+Other revenues and gains:
+   Interest revenue                                  $170
+   Gain on sale of available-for-sale securities       50
+   Other revenue                                      130      350
+Other expenses and losses:
+   Interest expense                                  $(50)
+   Loss on sale of fixed assets                       (40)
+   Restructuring expense                             (100)    (190)
+Income before income tax                                      $150
+Income tax expense                                            (100)
+Income from continuing operations                             $  50
+Discontinued operations (net of tax)                           (25)
+Net income                                                    $  25
+Single-Step Format:
+In the single-step format, all continuing revenues are grouped, and all continuing expenses (including income tax) are subtracted in one aggregate step to find Income from Continuing Operations.
+
+Radon Industries Inc.
+Income Statement
+For the Year Ended December 31, Year 1 (in thousands)
+
+Revenues and other items:
+   Sales revenue (net of returns/discounts)                  $ 350
+   Service revenue                                             200
+   Interest revenue                                            170
+   Rental revenue                                              100
+   Gain on sale of available-for-sale securities                50
+   Other revenue                                               130
+Total revenues and other items                               $1,000
+
+Expenses and other items:
+   Cost of goods sold                                        $ 200
+   Cost of services sold                                       150
+   Cost of rental income                                        60
+   Selling expenses                                            100
+   General and administrative expenses                          70
+   Interest expense                                             50
+   Depreciation expense                                         80
+   Loss on sales of fixed assets                                40
+   Restructuring expense                                       100
+   Income tax expense                                          100
+Total expenses and other items                                (950)
+Income from continuing operations                             $  50
+Discontinued operations (net of tax)                           (25)
+Net income                                                    $  25
+2.5 Earnings Management, Subjectivity, & Classification Shifting
+Because the Income Statement is prepared on the accrual basis and involves significant estimates, management may attempt earnings management. A common practice is classification shifting, where management shifts operating expenses down into the nonoperating section (e.g., characterizing normal operating expenses as "restructuring costs") to artificially inflate operating income and improve key performance ratios.
+
+3. Discontinued Operations
+3.1 Strategic Shift & Reporting Thresholds
+The operating results of a discontinued operation are reported separately from continuing operations, net of tax, at the bottom of the income statement.
+
+Accounting Rule: Discontinued Operations Reporting The results of operations of a component of an entity (or a business activity) will be reported in discontinued operations if the disposal represents a strategic shift that has or will have a major effect on an entity's operations and financial results. Examples include:
+
+Disposal of a major geographical area
+Disposal of a major line of business
+Disposal of a major equity-method investment
+3.2 Held-for-Sale Criteria (The Six Rules)
+A component of an entity is classified as held for sale (and reported under discontinued operations) in the period in which all of the following six criteria are met:
+
+Held-for-Sale Criteria
+
+Management commits to a plan to sell the component.
 The component is available for immediate sale in its present condition.
-
 An active program to locate a buyer has been initiated.
-
 The sale is probable and expected to be completed within one year.
+The component is being actively marketed at a reasonable price relative to fair value.
+It is unlikely that significant changes to the plan will be made or that the plan will be withdrawn.
+3.3 Measurement, Impairment, & Non-Depreciation Rules
+Measurement: A component classified as held for sale is measured at the lower of its carrying amount (book value) or fair value less costs to sell (Net Realizable Value - NRV).
+Non-Depreciation Rule: Once classified as held for sale, the long-lived assets within the component are no longer depreciated or amortized.
+Conservative Write-downs:
+An impairment loss is recognized for any initial or subsequent write-down to Net Realizable Value.
+A subsequent gain for any subsequent increase in Net Realizable Value can be recognized, but not in excess of the cumulative impairment losses previously recognized.
+3.4 Discontinued Operations Calculations
+The discontinued operations section of the income statement combines three distinct calculations (all reported net of tax):
 
-The component is actively marketed at a reasonable price relative to fair value.
+Results of Operations: The operating income or loss of the component during the entire reporting period, regardless of when the decision to sell occurred.
+Impairment Loss: Recognized if Book Value > NRV upon classification.
+Gain or Loss on Disposal: Recognized in the period in which the actual sale occurs.
+3.5 Comprehensive Example 1: Emkay Co. Segment Disposal
+On July 1, Year 1, Emkay Co. approved a plan to dispose of Segment X. Segment X was properly classified as a discontinued operation. It was sold on October 1, Year 1, for $480,000. Emkay’s tax rate is 40%.
 
-It is unlikely that significant changes to the plan to sell will be made or withdrawn.
+Operating loss Jan 1 to June 30: $110,000
+Operating loss July 1 to Oct 1: $100,000
+Carrying amount on July 1: $600,000 | Fair value less costs to sell: $450,000
+Actual selling price on Oct 1: $480,000
+Step 1: Calculate Impairment Loss on July 1 $$\text{Impairment Loss} = \text{NRV } ($450,000) - \text{Book Value } ($600,000) = $(150,000)$$
 
-C. Measurement and Calculation Mechanics
+Step 2: Calculate Gain/Loss on Disposal on October 1 The written-down carrying value on July 1 was $450,000. $$\text{Gain on Disposal} = \text{Sales Price } ($480,000) - \text{Adjusted Carrying Value } ($450,000) = $30,000$$
 
-Once classified as held for sale, assets within the component are no longer depreciated or amortized. The component is measured at the lower of its carrying amount (book value) or fair value minus cost to sell (Net Realizable Value).
+Step 3: Combine Pre-Tax Operating Results
 
-The total loss (or gain) from discontinued operations reported in the income statement for a given year includes three distinct elements, all presented Net of Tax:
+Jan 1 to Oct 1 Operating Losses: $(110,000) + (100,000) = $(210,000)$
+Impairment Loss: $(150,000)$
+Gain on Disposal: $30,000$
+Total pre-tax loss on discontinued operations: $$(330,000)$
+Step 4: Calculate After-Tax Discontinued Operations $$\text{Tax Benefit } (40\%) = $132,000$$ $$\text{Net Loss on Discontinued Operations} = $(330,000) \times (1 - 0.40) = $(198,000)$$
 
-Results of Operations: The operating income or loss of the component for the entire reporting period.
+Emkay Co.
+Partial Income Statement
+For the Year Ended December 31, Year 1
 
-Impairment Loss: Recognized if the Carrying Value exceeds the Fair Value less costs to sell. (Note: A subsequent increase in fair value can be recorded as a gain, but only up to the amount of the previously recognized impairment loss).
+Income from continuing operations before tax                  $430,000
+Income tax expense                                            (172,000)
+Income from continuing operations                             $258,000
+Discontinued operations:
+   Loss from operations of component segment X
+   (including gain on disposal of $30,000)          $(330,000)
+   Income tax benefit                                 132,000   (198,000)
+Net income                                                    $ 60,000
+3.6 Comprehensive Example 2: All Sports Company (Golf Division)
+All Sports Company decided on April 30, Year 1, to dispose of its Golf Division (carrying value $4,000,000; Net Realizable Value $2,200,000). The division had a pre-tax operating loss of $2,400,000 in Year 1. It was finally sold on June 30, Year 2, for $2,000,000 after incurring continuing losses of $200,000 per month in Year 2 (Jan 1 to June 30). The tax rate is 40%. Income from continuing operations was $4,875,000 in Year 1 and $5,200,000 in Year 2.
 
-Gain or Loss on Disposal: Calculated based on the selling price versus the carrying value at the time of the actual sale.
+Year 1 Reporting:
+Operating Loss (pre-tax): $(2,400,000)$
+Impairment Loss (pre-tax): $2,200,000 - 4,000,000 = $(1,800,000)$
+After-Tax Losses:
+Operating Loss, net of tax: $$(2,400,000) \times 0.60 = $(1,440,000)$
+Impairment Loss, net of tax: $$(1,800,000) \times 0.60 = $(1,080,000)$
+All Sports Company
+Year 1 Income Statement Presentation
 
-🎯 Exam Application & Rationale (MCQ Insight - Timing of Operating Losses): This is one of the most heavily tested concepts in FAR. If a company decides on September 1, Year 1, to discontinue a division and sells it on December 31, Year 1, the Year 1 loss from discontinued operations must include the operating losses for the entire 12 months of Year 1, not just the losses from Sept 1 to Dec 31. The date the board decides to sell does not affect the reporting of the revenues and expenses; all income/loss for the year is aggregated.
+Income from continuing operations                             $4,875,000
+Discontinued operations:
+   Loss from operations of discontinued component, net of tax (1,440,000)
+   Loss from impairment of discontinued operations, net of tax (1,080,000)
+Net income                                                    $2,355,000
+Year 2 Reporting:
+Operating Loss (Jan 1 - June 30): $6 \times $(200,000) = $(1,200,000)$ pre-tax
+Net of tax operating loss: $$(1,200,000) \times 0.60 = $(720,000)$
+Loss on Actual Disposal: Sale price of $2,000,000 - Adjusted carrying value of $2,200,000 = $(200,000)$ pre-tax
+Net of tax loss on disposal: $$(200,000) \times 0.60 = $(120,000)$
+All Sports Company
+Year 2 Income Statement Presentation
 
-🎯 Exam Application & Rationale (MCQ Insight - Future Projections Prohibited): If a decision to sell is made in Year 1, but the actual sale won't happen until Year 2, the Year 1 discontinued operations section includes the Year 1 operating losses and the impairment loss (if any). You must never accrue or anticipate projected operating losses for Year 2, nor can you accrue the projected gain/loss on disposal for Year 2, in the Year 1 financial statements. Each amount must be reported in the period it actually occurs.
+Income from continuing operations                             $5,200,000
+Discontinued operations:
+   Loss from operations of discontinued component, net of tax  (720,000)
+   Loss from sale of discontinued operations, net of tax       (120,000)
+Net income                                                    $4,360,000
+4. Comprehensive Income & Other Comprehensive Income (OCI)
+4.1 Defining Comprehensive Income
+Comprehensive income represents all changes in equity of a business enterprise during a period from non-owner sources.
 
-🎯 Exam Application & Rationale (MCQ Insight - Included Associated Costs): Employee relocation costs and additional pension costs directly associated with the decision to dispose of a segment MUST be included in the calculation of the loss from discontinued operations.
+Comprehensive Income Formula $$\text{Comprehensive Income} = \text{Net Income} + \text{Other Comprehensive Income (OCI)}$$
 
-🎯 Exam Application & Rationale (MCQ Insight - Sale of a Single Asset): Discontinued operations rules apply only to a component of an entity representing a strategic shift. If a company simply sells a single warehouse or a piece of equipment used for operations, the gain or loss is reported using the net concept as part of Continuing Operations, not discontinued operations.
+Comprehensive Income explicitly excludes owner transactions, such as:
 
-5. Comprehensive Income
+Investments by owners (issuance of common/preferred stock)
+Distributions to owners (cash dividends declared)
+Treasury stock transactions
+4.2 Other Comprehensive Income (OCI) & The PUFI Mnemonic
+Other Comprehensive Income consists of items of revenues, expenses, gains, and losses that bypass Net Income under GAAP and are instead reported directly in stockholders' equity. These items are remembered using the mnemonic PUFI:
 
-Comprehensive income includes all changes in the equity of a business during a period except those from investments by owners (issuing stock) and distributions to owners (dividends). It provides a holistic view of all non-owner changes in equity.
+PUFI: The Elements of OCI
 
-The Formula:
-
-
-$$\text{Net Income} + \text{Other Comprehensive Income (OCI)} = \text{Comprehensive Income}$$
-
-A. Other Comprehensive Income (OCI) and the "PUFI" Mnemonic
-
-OCI includes items that are too volatile to be included in regular Net Income. You must strictly memorize the PUFI components:
-
-P - Pension Adjustments: Changes in the funded status of defined benefit pension plans (e.g., unrecognized prior service costs, unrecognized pension gains/losses) that are not immediately recognized in net periodic pension cost.
-
-U - Unrealized Gains and Losses: Specifically, unrealized holding gains and losses on Available-for-Sale (AFS) debt securities and derivative instruments designated as cash flow hedges.
-
-F - Foreign Currency Items: Foreign currency translation adjustments for a foreign operation.
-
+P - Pension Adjustments: Gains/losses, prior service costs, and transition assets/obligations from defined benefit pension plans that are not recognized in net income.
+U - Unrealized Gains/Losses: Specifically on Available-for-Sale (AFS) debt securities and cash flow hedges.
+F - Foreign Currency Translation Adjustments: Adjustments arising from translating a foreign subsidiary's financial statements into the reporting currency.
 I - Instrument-Specific Credit Risk: Changes in fair value attributable to instrument-specific credit risk of financial liabilities for which the fair value option is elected.
+4.3 Accumulated Other Comprehensive Income (AOCI) vs. Retained Earnings
+Retained Earnings (Earned Capital): Accumulates Net Income over time. At year-end, Net Income is closed to Retained Earnings.
+Accumulated OCI (AOCI): A permanent equity account on the Balance Sheet that accumulates OCI over time. OCI is closed to AOCI at the end of each period.
+Equity Classification Stockholders' Equity comprises:
 
-🎯 Exam Application & Rationale (MCQ Insight - OCI Traps): The exam will aggressively test your ability to differentiate between what belongs in Net Income vs. OCI.
+Contributed Capital (Capital Stock, APIC)
+Retained Earnings (Earned Capital)
+Ending Accumulated Other Comprehensive Income (AOCI)
+Minus: Treasury Stock (at cost)
+4.4 Financial Statement Presentation Formats
+GAAP requires that Comprehensive Income be displayed in a financial statement presented with the same prominence as other financial statements. It cannot be reported on a per-share basis or hidden only in the footnotes.
 
-Trading Securities: Unrealized gains/losses on trading debt securities, and realized gains/losses on all securities, go to Net Income, not OCI. Only unrealized gains/losses on AFS debt securities go to OCI.
+The two permitted presentation formats are:
 
-Owner Transactions: Dividends paid, additional capital contributions, and gains on the reissuance of treasury stock are owner transactions and are explicitly excluded from Comprehensive Income entirely.
+Single-Statement Approach: Displays OCI items individually and in total directly below Net Income in one continuous statement.
+Two-Statement Approach: Presents a standard Income Statement ending in Net Income, followed immediately by a separate Statement of Other Comprehensive Income starting with Net Income and adding OCI components to arrive at Comprehensive Income.
+4.5 Illustrative Comprehensive Income Statements (Sydney Technologies)
+Below are illustrations of both approaches for Sydney Technologies Inc. (assuming revenues of $20M, expenses of $18.4M, tax rate of 25%, unrealized AFS gain of $210k, and foreign translation loss of $52.5k):
 
-Deferred Revenue: Deferred revenue is a liability, not an element of comprehensive income.
+Single-Statement Approach:
+Sydney Technologies Inc.
+Statement of Comprehensive Income
+For the Year Ended December 31, Year 1
 
-Discontinued Operations: Because Comprehensive Income includes Net Income, any loss from discontinued operations is automatically absorbed into the final Comprehensive Income figure.
+Revenues                                                     $20,000,000
+Expenses                                                     (18,400,000)
+Income before income taxes                                   $ 1,600,000
+Income tax expense (25%)                                        (400,000)
+Net income                                                   $ 1,200,000
+Other comprehensive income, net of tax:
+   Unrealized holding gains (AFS debt securities)  $ 210,000
+   Foreign currency translation loss                 (52,500)    157,500
+Comprehensive income                                         $ 1,357,500
+Two-Statement Approach:
+Sydney Technologies Inc.
+Statement of Other Comprehensive Income
+For the Year Ended December 31, Year 1
 
-B. Accumulated Other Comprehensive Income (AOCI)
+Net income (from Income Statement)                           $ 1,200,000
+Other comprehensive income, net of tax:
+   Unrealized holding gains (AFS debt securities)  $ 210,000
+   Foreign currency translation loss                 (52,500)    157,500
+Comprehensive income                                         $ 1,357,500
+4.6 Reclassification Adjustments & Required Disclosures
+Avoid Double Counting: Reclassification adjustments move OCI items from Accumulated OCI to Net Income in the current year once they are realized (e.g., when an AFS security is sold).
+Disclosures: All formats must disclose changes in accumulated balances of each component of OCI. This can be shown on the face of the financial statement or disclosed separately in the footnotes. Significant items reclassified out of AOCI must be presented either on the face of the statement where Net Income is presented or in the notes.
+5. Statement of Changes in Equity
+The Statement of Changes in Equity reports the reconciliation of the beginning and ending balances of all equity accounts during the period.
 
-While OCI represents the current period's temporary activity, those amounts must be closed out at year-end. Just as Net Income is closed to Retained Earnings, OCI is closed to a permanent equity account called Accumulated Other Comprehensive Income (AOCI).
+Sydney Technologies Inc.	Total	Common Stock	Additional Paid-In Capital	Accumulated OCI	Retained Earnings
+Beginning Balance	$30,000,000	$20,000,000	$0	$1,500,000	$8,500,000
+Net Income	1,200,000				1,200,000
+Other Comprehensive Income	200,000			200,000	
+Common Stock Issued	1,000,000	1,000,000			
+Dividends Declared	(700,000)				(700,000)
+Ending Balance	$31,700,000	$21,000,000	$0	$1,700,000	$9,000,000
+6. Cash vs. Accrual Basis Conversions
+The following formulas are essential for converting amounts between cash basis and accrual basis:
 
-AOCI is reported in the stockholders' equity section of the balance sheet.
+Cash Collected from Customers $$\text{Cash Collected} = \text{Beginning Accounts Receivable} + \text{Accrual Sales} - \text{Ending Accounts Receivable}$$
 
-If AOCI has a debit balance (representing accumulated losses), it is reported as a reduction of equity.
+Cash Paid to Suppliers $$\text{Cash Paid to Suppliers} = \text{Beginning Accounts Payable} + \text{Accrual Purchases} - \text{Ending Accounts Payable}$$
 
-🎯 Exam Application & Rationale (MCQ Insight - Changes in AOCI): The balance in AOCI from one period to the next will change only as a result of changes in Other Comprehensive Income. Changes in Net Income (like a loss from an earthquake or a gain from discontinued operations) or changes in Retained Earnings have absolutely no direct impact on the AOCI balance.
+Interest Paid $$\text{Interest Paid} = \text{Beginning Interest Payable} + \text{Accrual Interest Expense} - \text{Ending Interest Payable}$$
 
-C. Financial Statement Reporting & Disclosures
+Cash Paid for Operating Expenses $$\text{Operating Expenses Paid} = \text{Accrual Operating Expenses} + \text{Ending Prepaid Expenses} - \text{Beginning Prepaid Expenses}$$
 
-An entity that presents a full set of financial statements must present all items of comprehensive income recognized for the period.
+7. Knowledge Check: Becker Multiple-Choice Questions
+QUESTION 1 of 9
+A company's year-end comparative statement of financial position reflects the following changes from the prior year: cash increased by $40,000, total liabilities increased by $32,000, and all other assets decreased by $65,000. Which of the following statements is correct regarding the current-year change in the company's stockholders' equity? A. It increased by $25,000. B. It increased by $105,000. C. It decreased by $32,000. D. It decreased by $57,000.
 
-Format: It may be presented in either:
+QUESTION 2 of 9
+Envoy Co. manufactures and sells household products. Envoy experienced losses associated with its small appliance group. Operations and cash flows for this group can be clearly distinguished from the rest of Envoy's operations. Envoy plans to sell the small appliance group with its operations. What is the earliest point at which Envoy should report the small appliance group as a discontinued operation? A. When Envoy classifies it as held for sale. B. When Envoy receives an offer for the segment. C. When Envoy first sells any of the assets of the segment. D. When Envoy sells the majority of the assets of the segment.
 
-Single-Statement Approach: One continuous statement of income and comprehensive income.
+QUESTION 3 of 9
+For the eight months ended August 31, Year 5, the carpet division of a flooring company, which is considered a major line of business, had an operating loss of $115,000 from operations. On September 1, Year 5, the board of directors voted to discontinue the division's operations. On December 31, Year 5, the division was sold for a pretax loss of $135,000. The division's operating loss for Year 5 was $240,000. The company's income tax rate is 30 percent. What amount of loss should the company report as discontinued operations in the December 31, Year 5, income statement? A. $262,500 B. $260,000 C. $182,000 D. $168,000
 
-Two-Statement Approach: An income statement, immediately followed by a separate statement of comprehensive income that strictly begins with Net Income.
+QUESTION 4 of 9
+On December 2, Year 1, Flint Corp.'s board of directors voted to discontinue operations of its frozen food division and to sell the division's assets on the open market as soon as possible. This decision represents a major strategic shift for Flint and will have a significant effect on operations and financial results. The division reported net operating losses of $20,000 in December and $30,000 in January. On February 26, Year 2, sale of the division's assets resulted in a gain of $90,000. Assuming that the frozen foods division qualifies as a component of the business and ignoring income taxes, what amount of gain/loss from discontinued operations should Flint recognize in its income statement for Year 2? A. $40,000 gain B. $60,000 gain C. $90,000 gain D. $30,000 loss
 
-Per-Share Restriction: Comprehensive income must never be reported on a per-share basis.
+QUESTION 5 of 9
+Which of the following statements is correct regarding the reporting of comprehensive income? A. All companies must present a statement of comprehensive income. B. Other comprehensive income per share is presented in a statement of comprehensive income. C. The statement of comprehensive income can be shown as part of the footnotes only or as a separate financial statement. D. Comprehensive income may be presented in a single financial statement that presents both net income and comprehensive income.
 
-Tax Presentation: Regardless of the method used, companies can choose to report OCI items either individually net of tax, or before related taxes with one aggregate amount shown for the income tax expense/benefit related to the total. The tax effect on each component must be disclosed.
+QUESTION 6 of 9
+All of the following are accurate required disclosures when reporting accumulated other comprehensive income and other comprehensive income (under all formats), except: A. For each component of other comprehensive income, report the changes in the accumulated balances. B. Report total accumulated other comprehensive income on the balance sheet as an item of equity. C. The tax impact of each component included in the current year's other comprehensive income must be reported. D. Reclassification adjustments, and their effect on both net income and other comprehensive income, are reported in the footnotes.
 
-D. Reclassification Adjustments
+QUESTION 7 of 9
+Clear Co.’s trial balance has the following selected accounts:
 
-Reclassification adjustments are required to avoid double counting an item in comprehensive income. For example, if an AFS debt security has an unrealized gain in Year 1, that gain sits in OCI (and AOCI). If the security is sold in Year 2, the gain is "realized" and moves to Net Income. To avoid counting the gain twice (once in OCI, once in Net Income), a reclassification adjustment is made to pull it out of OCI in the period of the sale. Reclassification adjustments must be shown in the financial statement that discloses comprehensive income.
+Cash (includes $10,000 in bond sinking fund for long-term bond payable): $50,000
+Accounts receivable: $20,000
+Allowance for doubtful accounts: $5,000
+Deposits received from customers: $3,000
+Merchandise inventory: $7,000
+Unearned rent: $1,000
+Investment in trading securities: $2,000
+What amount should Clear report as total current assets in its balance sheet? A. $64,000 B. $67,000 C. $72,000 D. $74,000
 
-6. Foreign Currency Transactions
+QUESTION 8 of 9
+Stuff Inc., a U.S. company, imported goods for 50,000 euro on December 10, Year 1, and paid for them on January 10, Year 2. The following exchange rates were applicable:
 
-Foreign currency transactions occur when a company buys from or sells to a foreign company and agrees to pay or accept payment in a foreign currency. These are distinct from foreign currency translations (which go to OCI).
+Dec. 10, Year 1: $1.00 USD = 0.79 Euro (0.79 €)
+Dec. 31, Year 1: $1.00 USD = 0.82 Euro (0.82 €)
+Jan. 10, Year 2: $1.00 USD = 0.75 Euro (0.75 €)
+What approximate gain or loss will Stuff book at the end of Year 1? A. A gain of $1,500. B. A loss of $1,500. C. A gain of $2,500. D. A loss of $2,500.
 
-A. Mark-to-Market Accounting & Net Income Impact
+QUESTION 9 of 9
+In its Year 2 single-step income statement, Dart Co. reported the following selected items:
 
-Foreign currency transaction gains and losses are generally included in determining Net Income (Income from Continuing Operations) for the period in which exchange rates change.
+Net Sales of goods, services, and rentals: $250,000
+Purchase discounts: $10,000
+Recovery of accounts written off: $3,000
+What amount should Dart report as total revenues in its Year 2 single-step income statement? A. $250,000 B. $253,000 C. $260,000 D. $263,000
 
-The assets or liabilities resulting from the transaction are initially recorded using the exchange rate (spot rate) in effect at the date of the transaction.
+8. Answer Key & Detailed Explanations
+QUESTION 1: Correct Answer - D
+Explanation: According to the accounting equation: $$\Delta \text{Assets} = \Delta \text{Liabilities} + \Delta \text{Stockholders' Equity (SE)}$$ The net change in assets is Cash increase of $40,000 minus other assets decrease of $65,000, representing a net asset decline of $(25,000). Liabilities increased by $32,000. $$\text{Change in SE} = \Delta \text{Assets} - \Delta \text{Liabilities} = $(25,000) - $32,000 = $(57,000)$$ Therefore, stockholders' equity decreased by $57,000.
 
-Transaction Not Settled at Balance Sheet Date: A foreign exchange transaction gain or loss must be computed at each balance sheet date on all recorded transactions denominated in foreign currencies that have not been settled. The difference between the rate used to record the transaction and the year-end spot rate is recognized as an unrealized gain or loss in current net income.
+QUESTION 2: Correct Answer - A
+Explanation: The earliest period that a component can be reported in discontinued operations is when the component meets the "held for sale" criteria, which include a formal commitment to a plan by management, active marketing, availability for immediate sale, and probability that the sale will be finalized within one year.
 
-Settlement Date: When the transaction is finally settled, the difference between the carrying amount (the year-end marked-to-market amount) and the actual cash paid/received at the settlement spot rate is recognized as a realized gain or loss.
+QUESTION 3: Correct Answer - A
+Explanation: All operating results for the discontinued component incurred during the entire fiscal period must be reported in discontinued operations, along with any gain/loss on disposal. The total pre-tax discontinued operations loss is: $$\text{Operating Loss for entire Year 5} + \text{Disposal Loss} = $(240,000) + $(135,000) = $(375,000)$$ Applying the tax rate: $$\text{Discontinued Operations Loss (Net of Tax)} = $(375,000) \times (1 - 0.30) = $(262,500)$$
 
-🎯 Exam Application & Rationale (MCQ Insight - Directional Logic of FX Gains/Losses): You must master the logic of whether an exchange rate shift causes a gain or a loss.
+QUESTION 4: Correct Answer - B
+Explanation: For Year 2, the discontinued operations must include the operating loss of the component incurred during Year 2 and the actual gain on disposal.
 
-Payables (Importing/Buying): If a U.S. company owes a foreign currency (e.g., Euros), and the Euro appreciates against the U.S. dollar (it costs more dollars to buy one Euro), the liability increases, resulting in a Loss. If the Euro depreciates, the liability decreases, resulting in a Gain.
+Year 2 Operating loss (January): $(30,000)
+Gain on disposal (February): $90,000
+Net pre-tax gain/loss recognized in Year 2: $$90,000 \text{ gain} - $30,000 \text{ loss} = $60,000 \text{ gain}$.
+QUESTION 5: Correct Answer - D
+Explanation: U.S. GAAP permits Comprehensive Income to be presented as a single financial statement (the continuous statement approach presenting both net income and comprehensive income) or as two separate, consecutive statements. Footnote presentation only is prohibited, as comprehensive income must have the same prominence as other financial statements.
 
-Receivables (Exporting/Selling): If a U.S. company is owed a foreign currency, and the foreign currency appreciates, the U.S. company will receive more dollars upon conversion, resulting in a Gain. If the foreign currency depreciates, it results in a Loss.
+QUESTION 6: Correct Answer - D
+Explanation: Reclassification adjustments (including their effect on net income and other comprehensive income) must be presented in the statement in which the components of Net Income and OCI are displayed, not exclusively in the footnotes.
 
-B. Direct vs. Indirect Exchange Rate Quotes
+QUESTION 7: Correct Answer - A
+Explanation: Current assets are calculated as follows:
 
-Direct Method: The domestic price of one unit of another currency (e.g., From a U.S. perspective, $1.47 buys 1 Euro).
+Cash: $40,000 (excludes the $10,000 bond sinking fund which is restricted as a non-current asset)
+Accounts Receivable: $15,000 (net of the $5,000 allowance for doubtful accounts)
+Merchandise Inventory: $7,000
+Trading Securities: $2,000
+Current Assets = $$40,000 + $15,000 + $7,000 + $2,000 = $64,000$. Note: Deposits received ($3,000) and unearned rent ($1,000) are current liabilities, not assets.
+QUESTION 8: Correct Answer - C
+Explanation: Stuff Inc. is a U.S. company, so its accounts are reported in U.S. dollars.
 
-Indirect Method: The foreign price of one unit of the domestic currency (e.g., From a U.S. perspective, 0.68 Euros buys $1.00).
+December 10, Year 1 rate: $1.00 USD = 0.79 Euro. The dollar equivalent of the 50,000 Euro payable is: $$50,000 \text{ Euro} / 0.79 = $63,291.14 \text{ (or } $1.27 \text{ USD per Euro } \times 50,000 = $63,500)$$ Let's use the exact rates:
+On Dec. 10: $1.00 USD = 0.79 Euro, so 1 Euro = $1.2658 USD. 50,000 Euro payable = $63,291.
+On Dec. 31: $1.00 USD = 0.82 Euro, so 1 Euro = $1.2195 USD. 50,000 Euro payable = $60,976.
+The drop in the liability represents a foreign exchange transaction gain: $$$63,291 - $60,976 = $2,315 \approx $2,500$$
+Let's check the Becker simplified conversion: $$1 / 0.79 = $1.27 \text{ USD per Euro}$$ $$1 / 0.82 = $1.22 \text{ USD per Euro}$$ $$\text{Difference in rates} = $1.27 - $1.22 = $0.05$$ $$\text{Gain} = 50,000 \text{ Euro } \times $0.05 = $2,500 \text{ gain}$$ Because fewer U.S. dollars will be required to settle the Euro-denominated account payable at year-end than at the purchase date, a gain is recorded.
+QUESTION 9: Correct Answer - A
+Explanation: The single-step income statement includes all sales of goods, services, and rentals in total revenues. Purchase discounts reduce the Cost of Goods Sold rather than increase revenues. Recovery of accounts written off affects the allowance for doubtful accounts and accounts receivable directly and does not impact sales revenue. Therefore, total revenues are $250,000.
 
-🎯 Exam Application & Rationale (MCQ Insight - Spot Rate Selection): The exam will give you multiple dates and rates (Transaction Date, Year-End Date, Settlement Date, and Forward Rates). You must only use the Spot Rate. Do not use forward rates for standard transaction accounting. Furthermore, if asked for the gain or loss to be reported at year-end, you only calculate the difference between the Transaction Date spot rate and the Year-End spot rate. Do not use the settlement date rate if the question asks for the year-end adjustment.
-
-C. Foreign Currency Hedges
-
-Gains and losses from changes in the fair value of foreign currency transaction hedges classified as fair value hedges are accounted for in current earnings. However, gains and losses from changes in the fair value of hedges used to hedge a net investment in a foreign operation are reported in Other Comprehensive Income (OCI) as part of the cumulative translation adjustment.
-
-7. Special Purpose Frameworks (OCBOA)
-
-Financial statements may be prepared using a comprehensive basis of accounting that is not in accordance with GAAP, known as Other Comprehensive Bases of Accounting (OCBOA) or Special Purpose Frameworks.
-
-A. General Presentation Guidelines
-
-Financial statement titles should clearly differentiate the OCBOA financial statements from accrual basis GAAP financial statements (e.g., use "Statement of Assets and Liabilities Arising from Cash Transactions" instead of "Balance Sheet").
-
-The required financial statements are the equivalents of the accrual basis balance sheet and income statement.
-
-A statement of cash flows is not required.
-
-Disclosures should include a summary of significant accounting policies discussing the basis used and how it differs from GAAP.
-
-B. Cash Basis and Modified Cash Basis
-
-Strict Cash Basis: Revenues and expenses are recognized only when cash is received or paid, regardless of when goods are delivered or services are rendered. The balance sheet reports only cash and equity.
-
-Modified Cash Basis: A hybrid method used by most entities that do not use GAAP (e.g., professional services firms like physicians or architects). It uses the cash basis for typical operating activities but modifications having substantial support are allowed, such as:
-
-Capitalizing and depreciating fixed assets.
-
-Accruing income taxes.
-
-Recording liabilities for long-term and short-term borrowings.
-
-Capitalizing inventory.
-
-C. Income Tax Basis
-
-Prepared based on the methods and principles used to prepare the entity's tax return. It is well-suited for entities with complex operations that are not required to use accrual accounting. Special accounting treatment must be given to nontaxable revenues and expenses not reported on the tax return (e.g., they may be reported as separate line items, additions/deductions to net income, or disclosed in a note).
-
-Use the discussion board below to log daily mistakes, notes, and progress.
